@@ -1,7 +1,7 @@
 # **API Doc** 
 
 
-#### **login** 
+## **login** 
 |URL | Header | Methods | 
 |-- |--| --| 
 |/api/login/ | Content-Type:application/json | POST| 
@@ -30,7 +30,7 @@
 
 *** 
 
-#### **signup** 
+## **signup** 
 
 |URL|Header|Methods|
 | :--- | :-- | :-- |
@@ -55,6 +55,6 @@
 **Status Code**
 ```
 200 // OK
-403 yong hu ming //用户名已存在 
+403  //用户名已存在 
 ```
 *** 
