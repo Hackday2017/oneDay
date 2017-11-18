@@ -17,7 +17,7 @@
     'password':string    //用户密码 （base64加密）
 }
 ```
-**Return data(json):**
+**Return Data(json):**
 ```
 {
     'token': string 
@@ -41,7 +41,7 @@
 
 **URL Params:None**
 
-**POST data(json):**
+**POST Data(json):**
 ```
 {
     'username': string,    //用户名
@@ -49,7 +49,7 @@
 }
 ```
 
-**Return data(json):**
+**Return Data(json):**
 ```
 {
     'created':id           //用户id
@@ -83,7 +83,7 @@
 }
 ``` 
 
-**Return data(json):**
+**Return Data(json):**
 ```
 {
     'created':id           // 日记id 
@@ -127,7 +127,7 @@
 }
 ``` 
 
-**Return data(json):**
+**Return Data(json):**
 ```
 {
     'edit':id           // 日记id 
@@ -155,7 +155,7 @@
 
 **POST Data(json):None**
 
-**Return data(json):**
+**Return Data(json):**
 ```
 {
   [ 'title' : string, 
